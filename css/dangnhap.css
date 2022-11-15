@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+form .nen{
+    position: fixed;
+    z-index: 1000;
+   border: 1px solid rgba(0,0,0,0.3);
+    width: 100vw;
+    height: 100vh;
+   margin: 0px auto;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.3);
+    background-color: white;
+    background-color: rgba(14, 1, 1, 0.6);
+    font-family:Arial, Helvetica, sans-serif;
+}
+form .nen .dang_ky_ne{
+    margin-top: 100px;
+    border: 1px solid rgba(0,0,0,0.3);
+     width: 600px;
+     height: 570px;
+    margin: 20px auto;
+     box-shadow: 2px 2px 2px rgba(0,0,0,0.3);
+     background-color: white;
+     position: fixed;
+     left: 450px;
+     top: 100px;
+ }
+.nen{
+    
+    top: 0px;
+}
+.tieu_de{
+   display: flex;
+}
+.tieu_de span{
+    margin: 0 auto;
+    width: 50%;
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+   border: 1px solid rgba(0,0,0,0.2);
+   text-shadow: 1px 1px 1px rgba(88, 84, 84, 0.452);
+}
+.tieu_de span a{
+    margin: 0 auto;
+    width: 100%;
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+   
+   /* text-shadow: 1px 1px 1px #333; */
+}
+.form_dang_nhap .tieu_de span:nth-child(1) a{
+    color: rgb(255, 123, 0);
+    background-color: rgb(32, 32, 245);
+}
+#nen_dang_ky .tieu_de span:nth-child(2) a{
+    color: rgb(255, 123, 0);
+    background-color: rgb(32, 32, 245);
+}
+.tieu_de span a:hover{
+    color: rgb(255, 123, 0);
+    background-color: rgb(32, 32, 245);
+}
+.nen a{
+    text-decoration: none;
+    color: rgb(97, 124, 246);
+}
+.form_dang_nhap .email{
+    margin: 15px;
+}
+.email label{
+    display: block;
+    height: 5px;
+}
+.email input{
+    outline: none;
+    border: 1px solid rgba(0,0,0,0.1);
+    width: 550px;
+    height: 40px;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+.button{
+    margin: 0 auto;
+}
+.button button{
+    width: 90%;
+    margin: 5px 30px;
+    height: 40px;
+}
+.button p{
+    text-align: center;
+    width: 50%;
+    margin:10px auto;
+    color: rgba(0,0,0,0.5);
+    font-size: 13px;
+}
+.face{
+    border: 1px solid rgba(0,0,0,0.1);
+    width: 100%;
+    height: 120px;
+    line-height: 100px;
+   
+    /* box-shadow: 1px 1px 1px 2px rgb(255, 255, 255); */
+    
+}
+form .nen p{
+    text-align: center;
+    color: rgba(0,0,0,0.7);
+    font-size: 13px;
+}
+.face button:nth-child(1){
+width: 150px;
+height: 50px;
+margin-left: 100px;
+background-color: blue;
+color: aliceblue;
+cursor: pointer;
+border: none;
+font-size: 17px;
+}
+.face button:nth-child(2){
+    width: 150px;
+    height: 50px;
+    margin-left: 100px;
+    background-color: red;
+    color: aliceblue;
+    cursor: pointer;
+    border: none;
+    font-size: 17px;
+    }
+    .face button:nth-child(2):hover{
+        
+        box-shadow: 2px 2px 2px 2px rgba(255, 69, 69, 0.7);
+        
+        }
+        .face button:nth-child(1):hover{
+        
+            box-shadow: 2px 2px 2px 2px rgba(53, 117, 255, 0.7);
+            
+            }
+.form_dangnhapform label{
+    font-weight: 550;
+    font-size: 13px;
+}
+.email span{
+    font-size: 13px;
+}
+.form_dangky .email{
+    margin: 15px;
+}
+.form_dangky button{
+    text-align: center;
+    width: 200PX;
+    height: 40px;
+    background-color: rgb(49, 49, 210);
+    color: aliceblue;
+    margin-left: 200px;
+    cursor: pointer;
+    border: none;
+}
+.form_dangky button:hover{
+    background-color: aqua;
+    color: black;
+
+}
+#dang_nhap{
+
+}
+#nen_dang_nhap{
+    display: none;
+}
+#nen_dang_ky{
+    display: none;
+}
+#nen_dang_nhap:target{
+    display: block;
+}
+#nen_dang_ky:target{
+    display: block;
+}

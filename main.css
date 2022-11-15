@@ -1,0 +1,572 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+i{
+    color: aliceblue;
+}
+
+/* ---------------------- */
+
+/* ---------------------------------------------------------------- */
+
+.anh3{
+    width: 80%;
+    margin: 0 auto;
+
+}
+.anh3 img{
+    /* margin: 2px 11.5%; */
+    width: 100%;
+}
+.sale2 span{
+    position: absolute;
+    margin-top: -270px;
+    text-align: center;
+    width: 50px;
+    height: 20px;
+    background-color: rgb(225, 57, 28);
+    color: aliceblue;
+    font-size: 15px;
+}
+ div .sale3{
+    color: rgba(63, 40, 40, 0.651);
+    font-size: 13px;
+    text-decoration-line: line-through ;
+    font-weight: 300;
+    
+}
+.snack{
+    width: 100%;
+    background-color: #f6f6f6;
+    /* height: 1000px; */
+}
+.snack .danhmuc2{
+    display: flex;
+    margin-top: 25px;
+    
+}
+.snack .danhmuc2 li:nth-child(1){
+    margin-left: 390px;
+    padding: 5px 10px;
+    /* background-color:rgb(42, 42, 232); */
+    /* color: aliceblue;  */
+    color: black;
+    margin-right: 5px;
+}
+.snack .danhmuc2 li:nth-child(1) a{
+    color: rgb(16, 49, 78);
+    line-height: 30px;
+}
+.snack .danhmuc2 li{
+    margin-top: 20px;
+    padding: 5px 10px;
+    margin-bottom: 35px;
+    width: 100px;
+    height: 30px;
+    
+}
+.snack .danhmuc2 li a{
+    color: rgba(0, 0, 0, 0.714);
+   display: inline-block;
+   line-height: 30px;
+   /* border-right: 2px solid #333; */
+   
+}
+.snack .danhmuc2 li a:hover {
+background-color: rgb(183, 105, 46);
+width: 100px;
+height: 30px;
+color:aliceblue;
+}
+.snack .danhmuc2 li a:hover{
+color: aliceblue;
+}
+.snack .danhmuc2 li a:target{
+    background-color: blue;
+}
+/* ----------------------------------------------------------------- */
+.all{
+    width: 80%;
+    margin: 10px auto;
+}
+.all a{
+    display: block;
+   margin: 10px auto;
+    width: 150px;
+    height: 50px;
+    background-color:rgb(63,63,219);
+    line-height: 50px;
+    text-align: center;
+}
+.all a:hover{
+   color: #f6f6f6;
+    background-color:rgb(221, 152, 103);
+    
+}
+/* ------------------------------------------------------------------------- */
+#adidas{
+    display: none;
+    margin-top: 60px;
+    background-color: aqua;
+}
+#adidas:target{
+    display: block;
+}
+#NIKE{
+    margin-top: 60px;
+    display: none;
+}
+#NIKE:target{
+    display: block;
+}
+ #converse{
+    
+    width: 60%;
+    height: 50px;
+    background-color: bisque;
+   margin-top: 100px;
+    line-height: 50px; 
+    display: none;
+    margin: 70px auto;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+}
+#converse p{
+    margin-left: 20px;
+    color: rgba(41, 35, 35, 0.711);
+}
+#converse:target{
+    display: block;
+}
+#vans{
+    width: 60%;
+    height: 50px;
+    background-color: bisque;
+   margin-top: 100px;
+    line-height: 50px; 
+    display: none;
+    margin: 70px auto;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+}
+#vans p{
+    margin-left: 20px;
+    color: rgba(41, 35, 35, 0.711);
+}
+#vans:target{
+    display: block;
+}
+#puma{
+    width: 60%;
+    height: 50px;
+    background-color: bisque;
+   margin-top: 100px;
+    line-height: 50px; 
+    display: none;
+    margin: 70px auto;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+}
+#puma p{
+    margin-left: 20px;
+    color: rgba(41, 35, 35, 0.711);
+}
+#puma:target{
+    display: block;
+}
+#FILA{
+    width: 60%;
+    height: 50px;
+    background-color: bisque;
+   margin-top: 100px;
+    line-height: 50px; 
+    display: none;
+    margin: 70px auto;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+}
+#FILA p{
+    margin-left: 20px;
+    color: rgba(41, 35, 35, 0.711);
+}
+#FILA:target{
+    display: block;
+}
+#MLB{
+    width: 60%;
+    height: 50px;
+    background-color: bisque;
+   margin-top: 100px;
+    line-height: 50px; 
+    display: none;
+    margin: 70px auto;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+}
+#MLB p{
+    margin-left: 20px;
+    color: rgba(41, 35, 35, 0.711);
+}
+#MLB:target{
+    display: block;
+    transition: 1s;
+}
+footer{
+    background-color: #000000;
+    position: relative;
+    
+}
+.footer{
+    margin-top: 100px;
+    clear: both;
+    width: 100%;
+    height: 400px;
+    background:url(img/poster-giay-den.jpg)
+    no-repeat center ;
+    background-size: 100%;
+    opacity: 0.15;
+}
+footer .diachi{
+    position: absolute;
+    top: 90px;
+    width: 350px;
+    font-size: 15px;
+    left: 200px;
+
+}
+footer .diachi ul li{
+    padding: 10px;
+}
+footer .chungtoi{
+    color: aliceblue;
+    position: absolute;
+    top: 90px;
+    left: 700px;
+}
+footer .chungtoi ul li{
+    padding: 7px;
+}
+footer .chinhsach{
+    color: aliceblue;
+    position: absolute;
+    top: 90px;
+    left: 900px;
+}
+footer .chinhsach ul li {
+    padding: 7px;
+}
+footer .theodoi{
+    color: aliceblue;
+    position: absolute;
+    top: 90px;
+    left: 1200px;
+}
+footer .theodoi ul li{
+    padding: 7px;
+}
+footer  .chinhsach ul li a:hover{
+    color: rgb(212, 84, 37);
+}
+footer  .chungtoi ul li a:hover{
+color:rgb(212, 84, 37); 
+}
+footer .icon{
+    position: absolute;
+    top: 130px;
+    left: 160px;
+    
+}
+footer .icon ul li:nth-child(1){
+    padding-bottom: 30px;
+}
+
+footer .icon ul li{
+    padding: 9px;
+}
+footer .theodoi ul li i{
+    margin-left: 10px;
+    font-size: 25px;
+    cursor: pointer;
+    
+}
+@media only screen and (max-width: 768px) {
+    .header-content {
+        height: 200px;
+    }
+  .new h1{
+    font-size: 25px;
+    margin-top: 30px ;
+   }
+   footer{
+    background-color: #000000;
+    position: relative;
+   
+}
+footer .icon{
+    position: absolute;
+    top: 70px;
+    left: 5px;
+    display: block;
+    
+}
+footer .icon ul li:nth-child(1){
+    padding-bottom: 0px;
+}
+footer .icon ul li i{
+    font-size: 10px;
+    
+}
+
+footer .icon ul li{
+    padding: 3px;
+    
+    
+}
+.diachi h1{
+    text-align: center;
+}
+footer .diachi{
+    position: absolute;
+    top: 50px;
+    left: 25px;
+    width: 100%;
+    font-size: 10px;
+    
+    /* text-align: center; */
+
+}
+footer .diachi ul li{
+    padding: 5px;
+}
+footer .chungtoi{
+    color: aliceblue;
+    position: absolute;
+    top: 200px;
+    left: 10px;
+    width: 100%;
+}
+footer .chungtoi ul{
+    display: flex;
+}
+footer h3{
+    font-size: 13px;
+    margin-left: 15px;
+    
+}
+footer .chungtoi ul li a{
+    font-size: 10px;
+    text-align: center;
+    margin-left: 10px;
+}
+footer .chungtoi ul li{
+    padding: 7px;
+}
+footer .chinhsach{
+    display: none;
+}
+
+footer .theodoi{
+    color: aliceblue;
+    position: absolute;
+    top: 260px;
+    left: 15px;
+    width: 100%;
+    
+}
+.theodoi ul h3{
+    
+}
+footer .theodoi ul li{
+    padding: 7px;
+    
+}
+
+footer  .chinhsach ul li a:hover{
+    color: rgb(212, 84, 37);
+}
+footer  .chungtoi ul li a:hover{
+color:rgb(212, 84, 37); 
+}
+
+
+}
+.lienhe {
+    color: blue;
+   
+    display: block;
+    width: 50px;
+     top: 500px;
+    left: 1450px; 
+   position: fixed;
+    
+}
+.lienhe li{
+
+}
+.lienhe li:nth-child(1) i{
+    color: rgb(255, 255, 255);
+    background-color: rgb(30, 111, 232);
+    text-align: center;
+    line-height: 40px;
+   width: 40px;
+   height: 40px;
+   border-radius: 50%;
+    display: block;
+    font-size: 25px;
+   
+    margin-bottom: 10px;
+    
+}
+.lienhe li:nth-child(2) i{
+    color: rgb(255, 255, 255);
+    background-color: rgb(238, 69, 18);
+    text-align: center;
+    line-height: 40px;
+   width: 40px;
+   height: 40px;
+   border-radius: 50%;
+    display: block;
+    font-size: 25px;
+    
+    margin-bottom: 10px;
+    
+}
+.lienhe li:nth-child(3) i{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 149, 255);
+    text-align: center;
+    line-height: 40px;
+   width: 40px;
+   height: 40px;
+   border-radius: 50%;
+    display: block;
+    font-size: 25px;
+    margin-bottom: 10px;
+    
+}
+.lienhe li:nth-child(4) i{
+    color: rgb(255, 255, 255);
+    background-color: rgb(174, 90, 90);
+    text-align: center;
+    line-height: 40px;
+   width: 40px;
+   height: 40px;
+   border-radius: 100%;
+    display: block;
+    font-size: 25px;
+    margin-bottom: 10px;
+    
+}
+.lienhe li i:hover{
+    background-color: rgba(255, 255, 255, 0.6);
+    color: blue;
+}
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+    footer{
+        background-color: #000000;
+        position: relative;
+       
+    }
+    footer .icon{
+        position: absolute;
+        top: 70px;
+        left: 5px;
+        display: block;
+        
+    }
+    footer .icon ul li:nth-child(1){
+        padding-bottom: 0px;
+    }
+    footer .icon ul li i{
+        font-size: 10px;
+        
+    }
+    
+    footer .icon ul li{
+        padding: 3px;
+        
+        
+    }
+    .diachi h1{
+        text-align: center;
+    }
+    footer .diachi{
+        position: absolute;
+        top: 50px;
+        left: 25px;
+        width: 100%;
+        font-size: 10px;
+        
+        /* text-align: center; */
+    
+    }
+    footer .diachi ul li{
+        padding: 5px;
+    }
+    footer .chungtoi{
+        color: aliceblue;
+        position: absolute;
+        top: 200px;
+        left: 10px;
+        width: 100%;
+    }
+    footer .chungtoi ul{
+        display: flex;
+    }
+    footer h3{
+        font-size: 13px;
+        margin-left: 15px;
+        
+    }
+    footer .chungtoi ul li a{
+        font-size: 10px;
+        text-align: center;
+        margin-left: 10px;
+    }
+    footer .chungtoi ul li{
+        padding: 7px;
+    }
+    footer .chinhsach{
+        display: none;
+    }
+    
+    footer .theodoi{
+        color: aliceblue;
+        position: absolute;
+        top: 260px;
+        left: 15px;
+        width: 100%;
+        
+    }
+    .theodoi ul h3{
+        
+    }
+    footer .theodoi ul li{
+        padding: 7px;
+        
+    }
+    
+    footer  .chinhsach ul li a:hover{
+        color: rgb(212, 84, 37);
+    }
+    footer  .chungtoi ul li a:hover{
+    color:rgb(212, 84, 37); 
+    }
+    
+}
+    

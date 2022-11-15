@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+i{
+    color: rgb(255, 255, 255);
+}
+i:hover{
+    color: rgb(198, 128, 79);
+}
+a:hover{
+    color: rgb(198, 128, 79);
+}
+/* ---------------------- */
+header {
+    width: 100%;
+    height: 80px;
+    background-color:rgb(18,4,20);
+    z-index: 99;
+}
+header div{
+    width: 80%;
+    margin: 0 auto;
+    line-height: 80px;
+    display: flex;
+}
+header div .nav_begin{
+    display: flex;
+}
+header div .nav_begin li{
+margin-left: 30px;
+}
+header div .nav_begin li:nth-child(1){
+    margin-left: 300px;
+}
+/* ---------------------- */
+.nav_begin{
+    width: 70%;
+}
+.danhmuc{
+    width: 90px;
+}
+.danhmuc ul li a{
+    display: none;
+    position: relative;
+    color: rgba(0, 0, 0, 0.5);
+    background-color: rgb(255, 255, 255);
+    font-size: 16px;
+    border: 1px solid rgba(0,0,0,0.2);
+    width: 180px;
+    height: 40px;
+    line-height: 40px;
+    right: 380px;
+    padding-left: 10px;
+    transition: 0.5s;
+    z-index: 999;
+}
+.danhmuc ul li a:hover
+{
+    color: rgb(255, 255, 255);
+    background-color: rgb(229, 190, 108);
+}
+.danhmuc:hover ul li a{
+    display: block;
+}
+/* ----------------------------------------------- */
+header div .nav_end{
+    display: flex;
+}
+header div .nav_end li ul{
+display: none;
+   position: relative;
+   top: -33px;
+    right: 270px;
+
+}
+.nav_end{
+    margin-left: 100px;
+    
+}
+.nav_end_1{
+    width: 20px;
+    
+}
+header div .nav_end .nav_end_1:hover ul{
+    display: block;
+    
+}
+header div .nav_end .nav_end_1:hover ul li input{
+    width: 300px;
+    height: 40px;
+    padding: 10px;
+    /* border-radius: 5px; */
+    outline: none;
+    border: none;
+}
+header div .nav_end .nav_end_1:hover ul li i{
+color: black;
+
+    position: relative;
+    left: 270px;
+    font-size: 20px;
+    line-height: 40px;
+    bottom: 79px;
+}
+
+header div .nav_end .nav_end_2 i {
+   display: block;
+ padding-left: 40px;
+ line-height: 80px;
+ 
+}
+   
+header div .nav_end .nav_end_2 ul {
+    display: none;
+    position: relative;
+    background-color: antiquewhite;
+    width: 150px;
+    height: 100px;
+   top: -10px;
+    left: -80px;
+    
+
+
+
+}
+header div .nav_end .nav_end_2{
+    width: 10px;
+    height: 30px;
+}
+header div .nav_end .nav_end_2 ul li a{
+    color: black;
+    width: 150px;
+    height: 50px;
+    display: block;
+   
+}
+header div .nav_end .nav_end_2 ul li{
+    
+    border-bottom:1px solid rgba(0, 0, 0, 0.3) ;
+    line-height: 50px;
+    padding-left: 10px;
+
+    
+}
+header div .nav_end_2 ul li a:hover{
+ color: rgb(228, 164, 35);
+}
+header div .nav_end_2:hover ul {
+    display: block; 
+
+} 
+.nav_end_3{
+    margin-left: 80px;
+}
+.nav_end_4{
+    margin-left: 30px;
+    cursor: pointer;
+}
+.nav_end_5{
+    display: none;
+}
+/*---------------------------------------------------------------- nav_end-------------------------------------------------------------------------------- */
+.header-content{
+    background: url(https://bizweb.dktcdn.net/100/437/253/themes/871464/assets/slider_1.jpg?1660294502239);
+    background-repeat: no-repeat;
+    height: 700px;
+   background-size: 100%;
+    /* position: relative; */
+    z-index: 1;
+}
+.body_sale{
+    background-color:#3F3FDB;
+    width: 80%;
+    height: 180px;
+    position:absolute;
+    margin: 33% 10%;
+    display: flex;
+    text-align: center;
+}
+.body{
+   margin: 35px auto;
+   color: aliceblue;
+   width: 20%;
+}
+.body i{
+    margin-bottom: 20px;
+    font-size: 35px;
+    
+}
+.body span{
+    font-size: 12px;
+   
+}
+
+
+
+@media only screen and (max-width: 660px){
+    .header-content {
+        height: 200px;
+    }
+  .nav_begin li{
+    display: none;
+  }
+  .nav_end_5{
+    display: block;
+    margin-left: 20px;
+    font-size: 20px;
+}
+header div .nav_end .nav_end_2  i {
+   
+    padding-left: 20px;
+  
+}
+.nav_end_3{
+    margin-left: 40px;
+}
+.nav_end_4{
+    margin-left: 20px;
+}
+.nav_end_5 a i{
+    
+    width: 20px;
+    height: 20px;
+}
+    .nav_end_5 .dien_thoai ul{
+        display: none;
+    }
+    .nav_end_5:hover .dien_thoai ul{
+        display: block;
+    }
+    /* -nav_end_5 */
+    .body_sale{
+       /* display: none;  */
+        height: 100px;
+        
+    }
+    .body_sale i + h3{
+        padding-top:10px;
+        font-size: 10px;
+        
+    }
+    .body_sale span{
+        display: none;
+    }
+    .body{
+        margin: 10px auto  ;
+        
+    }
+    .body i{
+        margin-bottom: 5px;
+    }
+}
+
+
